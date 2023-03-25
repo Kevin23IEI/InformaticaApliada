@@ -1,5 +1,5 @@
 #Ejercicios 1
-#ESTO ES UNA PRUEBAAAAAA222!!!3333
+#ESTO ES UNA PRUEBAAAAAA
 #Prueba modificada Kevin
 # Introducción
 # Una expresión puede ser una operación aritmetica
