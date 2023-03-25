@@ -248,5 +248,6 @@ patron = '[0-9]+' #Esta es una expresión regular
 E=re.findall(patron, frase)
 print(frase)
 print('Se encontraron estos numeros:')
-print(E)
+print(E)          #['2', '15', '11']
+print(type(E))    #<class 'list'>
 
