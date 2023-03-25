@@ -1,5 +1,5 @@
 #Ejercicios 1
-#ESTO ES UNA PRUEBAAAAAA
+#---------Informática Aplicada------
 #Prueba modificada Kevin
 # Introducción
 # Una expresión puede ser una operación aritmetica
@@ -25,7 +25,7 @@ print(2j + 2 + 3j + 5)             # 7+5j
 print('Hola mundo')                # Hola Mundo
 print(['Mar', 2, 5])               # ['Mar', 2, 5]        Listas
 print({'Nombre':'Tu nombre'})      # {'Nombre': 'Tu nombre'}           Diccionarios
-print({'Algo', 2.67, 10.5})         # {10.5, 2.67, 'Algo'}
+print({'Algo', 2.67, 10.5})        # {10.5, 2.67, 'Algo'}
 print(('Lag', 6.8, 7.5, 20))        # ('Lag', 6.8, 7.5, 20)
 
 # Tipos de datos
