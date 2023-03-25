@@ -1,8 +1,7 @@
 # Expresiones y Operadores
 
 ## Expresiones.
-
-Las expresiones son combinaciones de constantes, variables, símbolos de operación, paréntesis y nombres de funciones especiales.
+'''Las expresiones son combinaciones de constantes, variables, símbolos de operación, paréntesis y nombres de funciones especiales.
 
 Una expresión consta de operandos y operadores. Según sea el tipo de objetos que manipulan, las expresiones se clasifican en: 
 
@@ -23,83 +22,92 @@ Las expresiones aritméticas son análogas a las fórmulas matemáticas. Las var
 * `**` - Este es el operador de exponencial y permite obtener la potencia de un operando en función de otro operando.
 
 A continuación se presentan algunos ejemplos de los operadores en código Python.
-
+'''
 ### Operador +.
-
-#python
-a = 7 + 3
+print('Operador +')
+a = 7 + 8           #15
 print(a)
+print (type(a))     #<class 'int'>
 a = 5
 b = 3
-c = a + b
-print(c)
-print(3+4)
-#
+c = a + b           #8
+print(c)        
+print (type(c))     #<class 'int'>
+print(3+5.5)        #8.5
+print (type(3+5.5)) #<class 'float'>
 
 
 ### Operador -.
-
-#python
-a = 6 - 2
-print(a)
+print('Operador -')
+a = 6 - 2           
+print(a)            #4
+print (type(a))     #<class 'int'>
 a = 5
 b = 3
 c = a - b
-print(c)
-print(2-6)
-#
+print(c)            #2
+print (type(c))     #<class 'int'>
+print(1.6-6)        #-4.4
+print (type(1.6-6)) #<class 'float'>
 
 
 ### Operador *.
-
-#python
+print('Operador *')
 a = 3 * 4
-print(a)
+print(a)            #12
+print (type(a))     #<class 'int'>
 a = 6
 b = 3
 c = a * b
-print(c)
-print(5*7)
-#
+print(c)            #18
+print (type(c))     #<class 'int'>
+print(5*7)          #35
+print (type(5*7))   #<class 'int'>
+
 
 
 ### Operador /.
-
-#python
+print('Operador /')
 a = 6 / 2
-print(a)
+print(a)            #3
+print (type(a))     #<class 'float'>
 a = 5
 b = 3
 c = a / b
-print(c)
-print(10/3)
-#
+print(c)            #1.6666666666666667
+print (type(c))     #<class 'float'>
+print(10/3)         #3.3333333333333335
+print (type(10/3))  #<class 'float'>
+
 
 ### Operador %.
-
-#python
+print('Operador %')
 a = 8 % 4
-print(a)
+print(a)            #0
+print (type(a))     #<class 'int'>
 a = 9
 b = 2
 c = a % b
-print(c)
-print(6%3)
+print(c)            #1
+print (type(c))     #<class 'int'>
+print(6%3)          #0
+print (type(6%3))   #<class 'int'>
 #
 
 ### Operador **.
-
-#python
+print('Operador **')
 a = 3 ** 3
-print(a)
+print(a)            #27
+print (type(a))     #<class 'int'>
 a = 2
 b = 4
 c = a ** b
-print(c)
-print(4**3)
-#
+print(c)            #16
+print (type(c))     #<class 'int'>
+print(4**3)         #64
+print (type(4**3))  #<class 'int'>
 
-Expresiones relacionales
+'''Expresiones relacionales
 
 * `<` - Este es el operador de menor que, y se utiliza en las expresiones relacionales para saber si un operando es menor a otro operando.
 * `>` - Este es el operador de mayor que, y se utiliza en las expresiones relacionales para saber si un operando es mayor a otro operando.
@@ -111,120 +119,134 @@ Expresiones relacionales
 NOTA: Como resultado de la aplicación de las expresiones relacionales, se obtendrá como resultado una salida booleana, es decir `TRUE` o `FALSE`.
 
 A continuación se presentan algunos ejemplos de las expresiones relacionales en código Python.
-
+'''
 ### Operador <.
-
-#python
+print('operador <')
 a = 3 < 3
-print(a)
+print(a)         #False
+print (type(a))  #<class 'bool'>
 a = 2
 b = 4
 c = a < b
-print(c)
-print(4<3)
+print(c)          #True
+print (type(c))   #<class 'bool'>
+print(4<3)        #False
+print (type(4<3)) #<class 'bool'>
 #
 
 ### Operador >.
-
-#python
+print('Operador >')
 a = 4 > 2
-print(a)
+print(a)          #True
+print (type(a))   #<class 'bool'>
 a = 5
 b = 7
 c = a > b
-print(c)
-print(9>2)
+print(c)          #False
+print (type(c))   #<class 'bool'>
+print(9>2)        #True
+print (type(9>2)) #<class 'bool'>
 #
 
 ### Operador ==.
-
-#python
+print('Operador ==')
 a = 5 == 5
-print(a)
+print(a)          #True
+print (type(a))   #<class 'bool'>
 a = 6
 b = 9
 c = a == b
-print(c)
-print(6==2)
-#
+print(c)          #False
+print (type(c))   #<class 'bool'>
+print(6==2)       #False
+print (type(6==2)) #<class 'bool'>
+
 
 ### Operador !=.
-
-#python
+print ('Operador !=')
 a = 4 != 2
-print(a)
+print(a)          #True
+print (type(a))   #<class 'bool'>
 a = 5
 b = 3
 c = a != b
-print(c)
-print(8!=8)
-#
+print(c)           #True
+print (type(c))    #<class 'bool'>
+print(8!=8)        #False
+print (type(8!=8)) #<class 'bool'>
 
 ### Operador <=.
-
-
-#python
+print('Operador <=')
 a = 5 <= 3
-print(a)
+print(a)           #False 
+print (type(a))    #<class 'bool'>
 x = 7
 y = 5
 z = x <= y
-print(z)
-print(9<=4)
+print(z)           #False
+print (type(z))    #<class 'bool'>
+print(9<=4)        #False
+print (type(9<=4)) #<class 'bool'>
 #
 
 ### Operador >=.
-
-#python
+print('Operador >=')
 a = 2 >= 8
-print(a)
+print(a)           #False
+print (type(a))    #<class 'bool'>
 a = 3
 b = 4
 c = a >= b
-print(c)
-print(7>=3)
+print(c)           #False
+print (type(c))    #<class 'bool'>
+print(7>=3)        #True
+print (type(7>=3)) #<class 'bool'>
 #
 
-
+"""
 ## Expresiones lógicas.
 
 
 * `not` - Este es el operador lógico para realizar una negación, si el operando no se encuentra en el otro operando, la expresión se cumple y resulta en True, caso contrario, si la expresión no se cumple el resultado es False.
 * `and` - Este es el operador lógico para realizar una conjugación, si cualquiera de los operandos presentes no se cumple en la expresión lógica, esta resulta en False, caso contrario, si toda la expresión lógica de conjugación se cumple el resultado es True.
 * `or` - Este es el operador lógico para realizar una conjugación, si cualquiera de los operandos presentes no se cumple en la expresión lógica, esta resulta en False, caso contrario, si toda la expresión lógica de conjugación se cumple el resultado es True.
-
+"""
 ### Operador and.
-
-#python
-print(4-1==3 and 5>6)
-print(6+7 > 11 and 3==3)
-#
+print('Operador and')
+print(4-1==3 and 5>6)          #False
+print (type(4-1==3 and 5>6))   #<class 'bool'>
+print(6+7 > 11 and 3==3)       #True
+print (type(6+7 > 11 and 3==3))#<class 'bool'>
 
 ### Operador or.
-
-#python
-print(4-1==3 or 5>6)
-print(6+7 > 11 or 3==3)
+print('Operador or')
+print(4-1==3 or 5>6)          #True
+print (type(4-1==3 or 5>6))   #<class 'bool'>
+print(6+7 > 11 or 3==3)       #True
+print (type(6+7 > 11 or 3==3))#<class 'bool'>
 #
 
 ### Operador not.
-
-#python
-print(not 5>6)
-print(not 5>4)
-#
+print('Operador not')
+print(not 5>6)       #True
+print (type(not 5>6))#<class 'bool'>
+print(not 5>4)       #False
+print (type(not 5>4))#<class 'bool'>
 
 ## Expresiones de carácter
-
+'''
 A diferencia de las demás expresiones no existe un operador estático sino una búsqueda de secuencias, números o caracteres dentro de una variable.
 
 Estas expresiones de búsqueda comúnmente llamadas expresiones regulares, sirven para captar ciertos elementos o patrones dentro de un valor.
 
 Ejemplo:
-
-#python
+'''
+print('Expresiones de caracter')
 import re
 frase = "Tengo 2 hijos que tienen 15 y 11 años"
 patron = '[0-9]+' #Esta es una expresión regular
-re.findall(patron, frase)
-#
+E=re.findall(patron, frase)
+print(frase)
+print('Se encontraron estos numeros:')
+print(E)
+
