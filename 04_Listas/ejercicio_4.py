@@ -31,6 +31,8 @@
     front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     back_end = ['Node','Express', 'MongoDB']
 '''
+#Resolver 10 ejercicios 
+#KEA
 
 #Ejercicios resueltos
 #1-1. Declare an empty list
