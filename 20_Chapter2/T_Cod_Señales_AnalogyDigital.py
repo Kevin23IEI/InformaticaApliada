@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 from scipy import signal
 import math
   
-  
+
 #DEfinimos las especificaciones del filtro 
 # definimos la frecuencia de muestreo
 f_sample = 40000 
