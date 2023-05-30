@@ -50,7 +50,7 @@ print("Promedios:",
 
 ####desviación estándar
 
-desv_estandar=np.zeros(shape=4) #creamos un vector de ceros para guardar las medias
+desv_estandar=np.zeros(shape=4) #creamos un vector de ceros para guardar la desviación estándar
 
 for j in range (0,4,1):
     desv_estandar[j]=np.std(datos[datos.columns[j]])
@@ -98,7 +98,7 @@ plt.xlabel('Especies')
 plt.ylabel('Frecuencia')
 plt.show()
 """
-
+#Creamos los histogramas de acuerdo a las especies dandole rangos 
 plt.hist(LP[0:50], bins=10,  color="green")
 plt.title('Distribución de longitudes de los pétalos de la especie Setosa')
 plt.xlabel('Longitud')
