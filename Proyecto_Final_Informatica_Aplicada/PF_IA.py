@@ -140,6 +140,7 @@ plt.xlabel('Longitud ')
 plt.ylabel('Ancho ')
 plt.show()
 
+
 #3. Correlación entre las variables
 
 # Calcular el coeficiente de correlación Sépalo Longitud y anchura
@@ -160,6 +161,23 @@ plt.xlabel('Longitud de Pétalo')
 plt.ylabel('Ancho de Pétalo')
 plt.show()
 
+"""""
+#Histogramas en una sola ventana
+fig, axs = plt.subplots(2, 2, figsize=(10,10))
+axs[0, 0].hist(LP[0:50], label='Setosa',color="green")
+axs[0, 0].set_title('Longitudes pétalos Setosa')
+axs[0, 1].hist(LP[51:100], label='Versicolor', color="purple")
+axs[0, 1].set_title('Longitudes pétalos Versicolor')
+axs[1, 0].hist(LP[101:150], label='Virginica', color="blue")
+axs[1, 0].set_title('Longitudes  pétalos Virginica')
+axs[1, 1].hist(LP[0:50], label='Setosa',color="green")
+axs[1, 1].hist(LP[51:100], label='Versicolor', color="purple")
+axs[1, 1].hist(LP[101:150], label='Virginica', color="blue")
+axs[1, 1].set_title('Distribución de longitudes de los pétalos')
+axs[1, 1].legend(loc='upper right')
+plt.show()
+
+"""
 
 """
 import csv
